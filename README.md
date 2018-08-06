@@ -12,5 +12,5 @@
   - [Topic Exchange](https://github.com/WavyPeng/RabbitMQ-API/tree/master/src/main/java/com/wavy/rabbitmq/api/exchange/topic)
   - [Fanout Exchange](https://github.com/WavyPeng/RabbitMQ-API/tree/master/src/main/java/com/wavy/rabbitmq/api/exchange/fanout)
 - 确认消息(Confirm)
-  - [confirm]()
+  - [confirm](https://github.com/WavyPeng/RabbitMQ-API/tree/master/src/main/java/com/wavy/rabbitmq/api/confirm)
 
