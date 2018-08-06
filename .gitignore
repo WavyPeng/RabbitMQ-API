@@ -38,3 +38,7 @@ out/
 
 catalina.base_IS_UNDEFINED/
 
+mvnw
+mvnw.cmd
+.mvn/
+
