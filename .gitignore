@@ -1,62 +1,40 @@
-/target/
-!.mvn/wrapper/maven-wrapper.jar
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea/
-.mvn/
-/idea/
-*ipr
-*iml
-*iws
-mvnw
-mvnw.cmd
-
-### NetBeans ###
-/nbproject/private/
-/build/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
 *.class
 
-### package file ###
+#package file
 *.war
 *.ear
 
-### kdiff3 ignore ###
+#kdiff3 ignore
 *.orig
 
-### maven ignore ###
+#maven ignore
 target/
 
-### eclipse ignore ###
+#eclipse ignore
 .settings/
 .project
 .classpath
 
-### temp file ###
+#idea
+.idea/
+/idea/
+*ipr
+*iml
+*iws
+
+
+#temp file
 *.log
 *.cache
 *.diff
 *.patch
 *.tmp
 
-### system ignore ###
+#system ignore
 .DS_Store
 Thumbs.db
 
-### other ###
 out/
+
 catalina.base_IS_UNDEFINED/
 

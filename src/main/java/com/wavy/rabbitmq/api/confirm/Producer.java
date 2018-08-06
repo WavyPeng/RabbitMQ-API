@@ -39,12 +39,12 @@ public class Producer {
              */
             @Override
             public void handleAck(long deliveryTag, boolean multiple) throws IOException {
-                System.out.println("--------no ack--------");
+                System.out.println("----------ack----------");
             }
 
             @Override
             public void handleNack(long deliveryTag, boolean multiple) throws IOException {
-                System.out.println("--------ack--------");
+                System.out.println("--------no ack--------");
             }
         });
     }

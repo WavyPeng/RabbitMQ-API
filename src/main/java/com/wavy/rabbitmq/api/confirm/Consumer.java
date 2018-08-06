@@ -23,7 +23,6 @@ public class Consumer {
         String queueName = "test_confirm_queue";
 
         // 4.发送一条消息
-        String msg = "Hello RabbitMQ Send confirm message!";
         channel.exchangeDeclare(exchangeName,"topic",true);
         channel.queueDeclare(queueName,true,false,false,null);
         channel.queueBind(queueName,exchangeName,routingKey);
@@ -32,6 +31,10 @@ public class Consumer {
         QueueingConsumer queueingConsumer = new QueueingConsumer(channel);
         channel.basicConsume(queueName,true,queueingConsumer);
 
-        
+        while(true){
+            QueueingConsumer.Delivery delivery = queueingConsumer.nextDelivery();
+            String msg = new String(delivery.getBody());
+            System.out.println("消费端："+msg);
+        }
     }
 }
