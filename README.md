@@ -19,4 +19,6 @@
   - [Consumer](https://github.com/WavyPeng/RabbitMQ-API/tree/master/src/main/java/com/wavy/rabbitmq/api/consumer)
 - 消费端限流
   - [limit](https://github.com/WavyPeng/RabbitMQ-API/tree/master/src/main/java/com/wavy/rabbitmq/api/limit)
+- 消费端ACK与重回队列
+  - [ack](https://github.com/WavyPeng/RabbitMQ-API/tree/master/src/main/java/com/wavy/rabbitmq/api/ack)
 
