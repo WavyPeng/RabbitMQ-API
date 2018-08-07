@@ -15,4 +15,6 @@
   - [ConfirmListener](https://github.com/WavyPeng/RabbitMQ-API/tree/master/src/main/java/com/wavy/rabbitmq/api/confirm)
 - Return消息机制(ReturnListener)
   - [ReturnListener](https://github.com/WavyPeng/RabbitMQ-API/tree/master/src/main/java/com/wavy/rabbitmq/api/returnListener)
+- 自定义消费者
+  - [Consumer](https://github.com/WavyPeng/RabbitMQ-API/tree/master/src/main/java/com/wavy/rabbitmq/api/consumer)
 
