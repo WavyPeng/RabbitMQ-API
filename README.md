@@ -21,4 +21,6 @@
   - [limit](https://github.com/WavyPeng/RabbitMQ-API/tree/master/src/main/java/com/wavy/rabbitmq/api/limit)
 - 消费端ACK与重回队列
   - [ack](https://github.com/WavyPeng/RabbitMQ-API/tree/master/src/main/java/com/wavy/rabbitmq/api/ack)
+- 死信队列
+  - [dlx](https://github.com/WavyPeng/RabbitMQ-API/tree/master/src/main/java/com/wavy/rabbitmq/api/dlx)
 
