@@ -17,4 +17,6 @@
   - [ReturnListener](https://github.com/WavyPeng/RabbitMQ-API/tree/master/src/main/java/com/wavy/rabbitmq/api/returnListener)
 - 自定义消费者
   - [Consumer](https://github.com/WavyPeng/RabbitMQ-API/tree/master/src/main/java/com/wavy/rabbitmq/api/consumer)
+- 消费端限流
+  - [limit](https://github.com/WavyPeng/RabbitMQ-API/tree/master/src/main/java/com/wavy/rabbitmq/api/limit)
 
